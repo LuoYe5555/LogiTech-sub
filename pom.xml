@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>me.matl114</groupId>
     <artifactId>LogiTech</artifactId>
-    <version>γ</version>
+    <version>ブランチ</version>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
