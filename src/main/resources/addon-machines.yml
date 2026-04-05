@@ -72,18 +72,6 @@ Slimefun:
     energy: 0
 MomoTech:
   enable: true
-  MOMOTECH_FAST_GEO:
-    recipetype: SLIMEFUN:GEO_MINER
-    tick: 2
-    mode: w
-    type: machine
-    energy: -1
-  MOMOTECH_RULE_GEO:
-    recipetype: SLIMEFUN:GEO_MINER
-    tick: 0
-    mode: w
-    type: machine
-    energy: -1
   MOMOTECH_INGOT_CONSTRUCTOR:
     recipe:
       '0':
@@ -1924,12 +1912,6 @@ CivilizationEvolution:
     type: generator
     energy: 0
 InfinityExpansion:
-  GEO_QUARRY:
-    recipetype: SLIMEFUN:GEO_MINER
-    tick: 64
-    mode: w
-    type: machine
-    energy: -1
   SINGULARITY_CONSTRUCTOR:
     recipetype: INFINITYEXPANSION:SINGULARITY_CONSTRUCTOR
     time: 640
@@ -6297,13 +6279,6 @@ LogiTech:
   LOGITECH_STACKMGENERATOR:
     mode: w
     type: generator
-    energy: -1
-
-  LOGITECH_INF_GEOQUARRY:
-    recipetype: SLIMEFUN:GEO_MINER
-    tick: 1
-    mode: w
-    type: machine
     energy: -1
 
   LOGITECH_SEQ_CONSTRUCTOR:

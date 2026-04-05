@@ -887,6 +887,12 @@ public class AddItem {
             Theme.MACHINE1,
             get("Machines.INF_GEOQUARRY.Name"),
             getList("Machines.INF_GEOQUARRY.Lore"));
+    public static final SlimefunItemStack ANN_GEOQUARRY = themed(
+            "ANN_GEOQUARRY",
+            Material.CHISELED_QUARTZ_BLOCK,
+            Theme.MACHINE1,
+            get("Machines.ANN_GEOQUARRY.Name"),
+            getList("Machines.ANN_GEOQUARRY.Lore"));
     public static final SlimefunItemStack RAND_EDITOR = themed(
             "RAND_EDITOR",
             Material.ENCHANTING_TABLE,
@@ -1597,12 +1603,6 @@ public class AddItem {
             Theme.MULTIBLOCK2,
             get("MultiBlock.SOLAR_REACTOR_GLASS.Name"),
             getList("MultiBlock.SOLAR_REACTOR_GLASS.Lore"));
-    public static final SlimefunItemStack BETTER_SOLAR_REACTOR = themed(
-            "BETTER_SOLAR_REACTOR",
-            Material.LODESTONE,
-            Theme.MULTIBLOCK1,
-            get("Machines.BATTER_SOLAR_REACTOR.Name"),
-            getList("Machines.BATTER_SOLAR_REACTOR.Lore"));
     public static final SlimefunItemStack SOLAR_INPUT = themed(
             "SOLAR_INPUT",
             Material.WAXED_OXIDIZED_COPPER,

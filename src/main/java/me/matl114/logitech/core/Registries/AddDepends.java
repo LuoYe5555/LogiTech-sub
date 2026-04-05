@@ -490,6 +490,35 @@ public class AddDepends {
         } catch (Throwable e) {
 
         }
+        try {
+            if (hasInfiniteExpansion) {
+                Class infinityGeoMiner = SlimefunItem.getById("GEO_QUARRY").getClass();
+                Constructor constructor = ReflectUtils.getSuitableConstructor(
+                        infinityGeoMiner,
+                        ItemGroup.class,
+                        SlimefunItemStack.class,
+                        RecipeType.class,
+                        ItemStack[].class);
+                AddItem.ANN_GEOQUARRY.setItemMeta(AddUtils.addLore(
+                                AddItem.ANN_GEOQUARRY, AddUtils.speedDisplay(256), AddUtils.energyPerSecond(7500))
+                        .getItemMeta());
+                ANNIHILATION_GEOQURRY = (SlimefunItem) constructor.newInstance(
+                        AddGroups.BASIC,
+                        AddItem.ANN_GEOQUARRY,
+                        INFINITYWORKBENCH_TYPE,
+                        AddSlimefunItems.recipe("VOID_INGOT","VOID_INGOT","VOID_INGOT","VOID_INGOT","VOID_INGOT","VOID_INGOT",
+                                "VOID_INGOT","INFINITE_INGOT",AddItem.ABSTRACT_INGOT,AddItem.ABSTRACT_INGOT,"INFINITE_INGOT","VOID_INGOT",
+                                "VOID_INGOT",AddItem.ABSTRACT_INGOT,AddItem.INF_GEOQUARRY,AddItem.LYEN,AddItem.ABSTRACT_INGOT,"VOID_INGOT",
+                                "VOID_INGOT",AddItem.ABSTRACT_INGOT,AddItem.MATL114,AddItem.INF_GEOQUARRY,AddItem.ABSTRACT_INGOT,"VOID_INGOT",
+                                "VOID_INGOT","INFINITE_INGOT",AddItem.ABSTRACT_INGOT,AddItem.ABSTRACT_INGOT,"INFINITE_INGOT","VOID_INGOT",
+                                "VOID_INGOT","VOID_INGOT","VOID_INGOT","VOID_INGOT","VOID_INGOT","VOID_INGOT"));
+                ReflectUtils.invokeSetRecursively(ANNIHILATION_GEOQURRY, "ticksPerOutput", 1);
+                ReflectUtils.invokeSetRecursively(ANNIHILATION_GEOQURRY, "energyPerTick", 7500);
+                ANNIHILATION_GEOQURRY.register(plugin);
+            }
+        } catch (Throwable e) {
+
+        }
     }
 
     public static boolean hasInfiniteExpansion = false;
@@ -509,6 +538,7 @@ public class AddDepends {
     public static SlimefunItem INFINITY_AUTOCRAFT;
     public static SlimefunItem INFINITY_MOBSIMNULATOR;
     public static SlimefunItem INFINITY_GEOQURRY;
+    public static SlimefunItem ANNIHILATION_GEOQURRY;
     public static MyVanillaItem NTW_STORAGE_DISPLAY;
     public static Class NETWORKSQUANTUMSTORAGE;
     public static NamespacedKey NTWQUANTUMKEY;

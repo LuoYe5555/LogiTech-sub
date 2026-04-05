@@ -72,88 +72,6 @@ Slimefun:
     energy: 0
 MomoTech:
   enable: true
-  MOMOTECH_FAST_GEO:
-    recipetype: SLIMEFUN:GEO_MINER
-    tick: 2
-    mode: w
-    type: machine
-    energy: -1
-  MOMOTECH_RULE_GEO:
-    recipe:
-      '0':
-        input:
-          '1': 1NETHERITE_PICKAXE
-        output:
-          '1':
-            type: "ra"
-            item:
-              "1": 16KOMUTECH_JZ_TRJZ
-              "2": 16CRITICAL_PHOTON
-              "3": 16UNIPOLAR_MAGNET
-              "4": 16DEUTERIUM
-              "5": 16CRYSTAL_CERTUS_QUARTZ
-              "6": 16COPPER_ORE_RAW
-              "7": 16SEA_MINER
-              "8": 16SALT
-              "9": 16HELL_MINER
-              "10": 16LOGITECH_DIMENSIONAL_SHARD
-              "11": 16COMBUSTIBLE_ICE
-              "12": 16IRON_ORE_RAW
-              "13": 16LENGSHANG_BLX_YTB
-              "14": 16LENGSHANG_BLX_BLS
-              "15": 16KIMBERLEY_ORE
-              "16": 16PLAIN_MINER
-              "17": 16END_ESSENCE
-              "18": 16FRACTAL_SILICA
-              "19": 16XC_XC
-              "20": 16HYDROGEN
-              "21": 16LENGSHANG_MTXJ
-              "22": 16GRATING_STONE
-              "23": 16FQ_TJRL
-              "24": 16ANTIMATTER
-              "25": 16NETHER_ICE
-              "26": 16SPINY_BAMBOO_SHOOT_CRYSTAL
-              "27": 16VOID_MINER
-              "28": 16SMALL_URANIUM
-              "29": 16TITANIUM_STONE
-              "30": 16DINAS_ROCK
-              "31": 16MAGIC_REDSTONE
-            weight:
-              "1": 1
-              "2": 1
-              "3": 1
-              "4": 1
-              "5": 1
-              "6": 1
-              "7": 1
-              "8": 1
-              "9": 1
-              "10": 1
-              "11": 1
-              "12": 1
-              "13": 1
-              "14": 1
-              "15": 1
-              "16": 1
-              "17": 1
-              "18": 1
-              "19": 1
-              "20": 1
-              "21": 1
-              "22": 1
-              "23": 1
-              "24": 1
-              "25": 1
-              "26": 1
-              "27": 1
-              "28": 1
-              "29": 1
-              "30": 1
-              "31": 1
-        tick: 1
-    mode: w
-    type: machine
-    energy: -1
   MOMOTECH_INGOT_CONSTRUCTOR:
     recipe:
       '0':
@@ -1994,12 +1912,6 @@ CivilizationEvolution:
     type: generator
     energy: 0
 InfinityExpansion:
-  GEO_QUARRY:
-    recipetype: SLIMEFUN:GEO_MINER
-    tick: 64
-    mode: w
-    type: machine
-    energy: -1
   SINGULARITY_CONSTRUCTOR:
     recipetype: INFINITYEXPANSION:SINGULARITY_CONSTRUCTOR
     time: 640
@@ -6365,13 +6277,6 @@ LiteXpansion:
     energy: 16666
 LogiTech:
   LOGITECH_STACKMGENERATOR:
-    mode: w
-    type: generator
-    energy: -1
-
-  LOGITECH_INF_GEOQUARRY:
-    recipetype: SLIMEFUN:GEO_MINER
-    tick: 1
     mode: w
     type: generator
     energy: -1

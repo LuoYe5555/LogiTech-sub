@@ -5,7 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0353618-240b-43ab-85ea-1e3fb9db861c" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/matl114/logitech/core/AddItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/matl114/logitech/core/AddItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/matl114/logitech/core/AddSlimefunItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/matl114/logitech/core/AddSlimefunItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/matl114/logitech/core/Registries/AddDepends.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/matl114/logitech/core/Registries/AddDepends.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/addon-machines.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/addon-machines.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/language.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/language.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/LogiTech-γ.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/LogiTech-γ.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/addon-machines.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/addon-machines.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/language.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/language.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$22.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$22.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$23.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$23.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$24$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$24$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$24$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$24$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$24.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$24.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$25.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$25.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$26.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$26.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$27.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$27.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$28.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$28.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$29.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$29.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$30.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$30.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$31.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$31.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$32.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$32.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$33.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$33.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$34.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$34.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$35.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$35.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$36.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$36.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$37.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$37.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/Registries/AddDepends.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/Registries/AddDepends.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/original-LogiTech-γ.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-LogiTech-γ.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,15 +60,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/30955/Desktop/RELogi"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/30955/Desktop/RELogi&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LogiTech-git-51ee3a5" />
