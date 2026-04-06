@@ -13,6 +13,7 @@ import me.matl114.logitech.utils.UtilClass.StorageClass.ItemStorageCache;
 import me.matl114.matlib.utils.version.VersionedMeta;
 import me.mrCookieSlime.Slimefun.Objects.SlimefunItem.abstractItems.MachineRecipe;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
+import me.mrCookieSlime.Slimefun.api.item_transport.ItemTransportFlow;
 import net.guizhanss.guizhanlib.minecraft.helper.inventory.ItemStackHelper;
 import net.guizhanss.guizhanlib.minecraft.helper.potion.PotionEffectTypeHelper;
 import org.bukkit.Material;
@@ -29,7 +30,23 @@ import java.util.function.LongFunction;
 
 @SuppressWarnings("all")
 public class CraftUtils {
+    public static final ItemTransportFlow CRAFT_PROVIDER = ItemTransportFlow.WITHDRAW;
     public static final EnumSet<Material> COMPLEX_MATERIALS = EnumSet.noneOf(Material.class);
+
+    public static void pushItems(ItemStack[] items, BlockMenu menu, int[] slots, ItemTransportFlow flow) {
+        for (ItemStack item : items) {
+            if (item == null || item.getType().isAir()) continue;
+
+            switch (flow) {
+                case INSERT:
+                    menu.pushItem(item.clone(), slots);
+                    break;
+                case WITHDRAW:
+                    // 从其他地方取物品，通常不在此处实现
+                    break;
+            }
+        }
+    }
 
     private static final HashSet<Material> INDISTINGUISHABLE_MATERIALS = new HashSet<Material>();
 

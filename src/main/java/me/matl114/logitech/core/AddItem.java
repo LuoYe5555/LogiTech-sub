@@ -1073,7 +1073,12 @@ public class AddItem {
             Theme.MACHINE1,
             get("Machines.TIMER_SF.Name"),
             getList("Machines.TIMER_SF.Lore"));
-
+    public static final SlimefunItemStack SOLAR_REACTOR_SIMULATOR = themed(
+            "SOLAR_REACTOR_SIMULATOR",
+            Material.LODESTONE,
+            Theme.MULTIBLOCK2,
+            get("Machines.SOLAR_REACTOR_SIMULATOR.Name"),
+            getList("Machines.SOLAR_REACTOR_SIMULATOR.Lore"));
     //    public static final SlimefunItemStack TIMER_SF_SEQ=themed("TIMER_SF_SEQ",Material.SOUL_TORCH,Theme.MACHINE1,
     //            get("Machines.TIMER_SF_SEQ.Name"),getList("Machines.TIMER_SF_SEQ.Lore"));
     // manuals
@@ -1273,6 +1278,18 @@ public class AddItem {
             .get();
 
     // generators
+    public static final SlimefunItemStack BUG_WHOLESALE = themed(
+            "BUG_WHOLESALE",
+            CustomHead.BUG_WHOLESALE.getItem(),
+            Theme.MACHINE2,
+            get("Generators.BUG_WHOLESALE.Name"),
+            getList("Generators.BUG_WHOLESALE.Lore"));
+    public static final SlimefunItemStack PARADOX_WHOLESALE = themed(
+            "PARADOX_WHOLESALE",
+            Material.SOUL_LANTERN,
+            Theme.MACHINE2,
+            get("Generators.PARADOX_WHOLESALE.Name"),
+            getList("Generators.PARADOX_WHOLESALE.Lore"));
     public static final SlimefunItemStack MAGIC_STONE = themed(
             "MAGIC_STONE",
             Material.COBBLESTONE,

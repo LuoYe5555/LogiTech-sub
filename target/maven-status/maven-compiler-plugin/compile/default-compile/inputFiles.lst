@@ -125,6 +125,7 @@ C:\Users\30955\Desktop\LogiTech-γ\src\main\java\me\matl114\logitech\core\Machin
 C:\Users\30955\Desktop\LogiTech-γ\src\main\java\me\matl114\logitech\core\Machines\Abstracts\AbstractManual.java
 C:\Users\30955\Desktop\LogiTech-γ\src\main\java\me\matl114\logitech\core\Machines\Abstracts\AbstractMultiThreadProcessor.java
 C:\Users\30955\Desktop\LogiTech-γ\src\main\java\me\matl114\logitech\core\Machines\Abstracts\AbstractProcessor.java
+C:\Users\30955\Desktop\LogiTech-γ\src\main\java\me\matl114\logitech\core\Machines\Abstracts\AbstractRecipeMachine.java
 C:\Users\30955\Desktop\LogiTech-γ\src\main\java\me\matl114\logitech\core\Machines\Abstracts\AbstractSequenceProcessor.java
 C:\Users\30955\Desktop\LogiTech-γ\src\main\java\me\matl114\logitech\core\Machines\Abstracts\AbstractTransformer.java
 C:\Users\30955\Desktop\LogiTech-γ\src\main\java\me\matl114\logitech\core\Machines\Abstracts\AbstractWorkBench.java
@@ -140,6 +141,7 @@ C:\Users\30955\Desktop\LogiTech-γ\src\main\java\me\matl114\logitech\core\Machin
 C:\Users\30955\Desktop\LogiTech-γ\src\main\java\me\matl114\logitech\core\Machines\AutoMachines\InverseMachine.java
 C:\Users\30955\Desktop\LogiTech-γ\src\main\java\me\matl114\logitech\core\Machines\AutoMachines\MMGenerator.java
 C:\Users\30955\Desktop\LogiTech-γ\src\main\java\me\matl114\logitech\core\Machines\AutoMachines\MTMachine.java
+C:\Users\30955\Desktop\LogiTech-γ\src\main\java\me\matl114\logitech\core\Machines\AutoMachines\RecipeMachine.java
 C:\Users\30955\Desktop\LogiTech-γ\src\main\java\me\matl114\logitech\core\Machines\AutoMachines\REMachine.java
 C:\Users\30955\Desktop\LogiTech-γ\src\main\java\me\matl114\logitech\core\Machines\AutoMachines\SequenceConstructor.java
 C:\Users\30955\Desktop\LogiTech-γ\src\main\java\me\matl114\logitech\core\Machines\AutoMachines\SMGenerator.java

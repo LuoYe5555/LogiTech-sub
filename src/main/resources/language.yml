@@ -894,7 +894,7 @@ zh_CN:
       Lore:
         - '屠宰工厂的终极版本'
         - '需要插入对应的生物特征运行'
-        - '堆叠效率: 64.0'
+        - '堆叠效率: 1.0'
     INF_MOBSIMULATION:
       Name: '无尽生物模拟室'
       Lore:
@@ -905,7 +905,7 @@ zh_CN:
         - '利用电力缓慢获取地理资源'
         - '不受剩余地理资源数量影响'
     ANN_GEOQUARRY:
-      Name: '虚无地理资源矿机'
+      Name: '湮灭地理资源矿机'
       Lore:
         - '利用电力缓慢获取地理资源'
         - '不受剩余地理资源数量影响'
@@ -1101,6 +1101,14 @@ zh_CN:
         - '⇨ &e该机器拥有更强的控制力,保证机器以固定顺序反复运行'
         - '⇨ &e但是会花费更多的时间'
         - '⇨ 每个区块仅限一个'
+    SOLAR_REACTOR_SIMULATOR:
+      Name: '超新星 - 模拟器'
+      Lore:
+        - '不会爆炸的超新星'
+        - '不用再让管理补个蛋啦'
+        - "同时不再需要消耗材料"
+        - '由于不可抗力的因素'
+        - '制作时间被延长到了一坤分'
   Manuals:
     MANUAL_CORE:
       Name: '乱序核心'
@@ -1189,6 +1197,15 @@ zh_CN:
         - '右键 打开高级快捷合成界面'
   Generators:
 
+    BUG_WHOLESALE:
+      Name: 'BUG批发商'
+      Lore:
+        - '佛看见了黑奴lengshang在不停的从版本与说明拿BUG出来...'
+    PARADOX_WHOLESALE:
+      Name: '悖论一体机'
+      Lore:
+        - '稳定生产悖论'
+        - '既是合成方式也是摆放结构...'
     MAGIC_STONE:
       Name: '魔法刷石机'
       Lore:
@@ -1303,7 +1320,6 @@ zh_CN:
       Name: 'TNT生成器'
       Lore:
         - '好孩子,这可不是给你拿去炸服用的'
-
   MultiBlock:
     PORTAL_CORE:
       Name: '维度传送门核心'

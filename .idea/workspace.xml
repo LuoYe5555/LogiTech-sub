@@ -5,16 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0353618-240b-43ab-85ea-1e3fb9db861c" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/matl114/logitech/core/Machines/Abstracts/AbstractRecipeMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/matl114/logitech/core/Machines/AutoMachines/RecipeMachine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/matl114/logitech/core/AddGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/matl114/logitech/core/AddGroups.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/me/matl114/logitech/core/AddItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/matl114/logitech/core/AddItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/me/matl114/logitech/core/AddSlimefunItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/matl114/logitech/core/AddSlimefunItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/matl114/logitech/core/Registries/AddDepends.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/matl114/logitech/core/Registries/AddDepends.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/addon-machines.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/addon-machines.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/matl114/logitech/utils/CraftUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/matl114/logitech/utils/CraftUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/matl114/logitech/utils/UtilClass/SpecialItemClass/CustomHead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/matl114/logitech/utils/UtilClass/SpecialItemClass/CustomHead.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/git.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/git.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/language.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/language.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/LogiTech-γ.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/LogiTech-γ.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/addon-machines.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/addon-machines.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/language.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/language.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddGroups$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddGroups$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddGroups$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddGroups$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddGroups$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddGroups$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddGroups$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddGroups$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddGroups$7$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddGroups$7$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddGroups$7$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddGroups$7$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddGroups$7$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddGroups$7$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddGroups$7$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddGroups$7$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddGroups$7$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddGroups$7$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddGroups$7$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddGroups$7$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddGroups$7$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddGroups$7$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddGroups$7$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddGroups$7$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddGroups$7$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddGroups$7$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddGroups$7$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddGroups$7$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddGroups$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddGroups$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddGroups$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddGroups$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddGroups.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddGroups.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddItem$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddItem$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$17.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$18.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$19.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$20.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$21.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$22.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$22.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$23.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$23.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$24$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$24$1.class" afterDir="false" />
@@ -34,7 +66,11 @@
       <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$36.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$36.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$37.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems$37.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/AddSlimefunItems.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/Registries/AddDepends.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/core/Registries/AddDepends.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/utils/CraftUtils$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/utils/CraftUtils$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/utils/CraftUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/utils/CraftUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/matl114/logitech/utils/UtilClass/SpecialItemClass/CustomHead.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/matl114/logitech/utils/UtilClass/SpecialItemClass/CustomHead.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/original-LogiTech-γ.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-LogiTech-γ.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +92,9 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="3BYnD5PwJ7qnhnmHyEsOdD3U8jG" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
