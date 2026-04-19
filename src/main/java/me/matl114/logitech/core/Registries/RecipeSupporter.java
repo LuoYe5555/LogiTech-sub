@@ -1144,6 +1144,10 @@ public class RecipeSupporter {
         RECIPE_TYPES.add(BukkitUtils.VANILLA_FURNACE);
         PROVIDED_UNSHAPED_RECIPES.put(BukkitUtils.VANILLA_FURNACE, new ArrayList<>());
         PROVIDED_SHAPED_RECIPES.put(BukkitUtils.VANILLA_FURNACE, new ArrayList<>());
+
+        RECIPE_TYPES.add(BukkitUtils.VANILLA_STONECUTTER);
+        PROVIDED_UNSHAPED_RECIPES.put(BukkitUtils.VANILLA_STONECUTTER, new ArrayList<>());
+        PROVIDED_SHAPED_RECIPES.put(BukkitUtils.VANILLA_STONECUTTER, new ArrayList<>());
         // 原版配方
         Iterator<Recipe> recipeIterator = PLUGIN.getJavaPlugin().getServer().recipeIterator();
         while (recipeIterator.hasNext()) {
@@ -1233,6 +1237,40 @@ public class RecipeSupporter {
                                         recipe.getCookingTime() / 10,
                                         new ItemStack[] {input},
                                         new ItemStack[] {recipe.getResult()}));
+                }
+            }
+            } else if (next instanceof StonecuttingRecipe stonecuttingRecipe) {
+                RecipeChoice choice = stonecuttingRecipe.getInputChoice();
+
+                if (choice instanceof RecipeChoice.MaterialChoice materialChoice) {
+                    for (Material input : materialChoice.getChoices()) {
+                        PROVIDED_UNSHAPED_RECIPES
+                                .get(BukkitUtils.VANILLA_STONECUTTER)
+                                .add(MachineRecipeUtils.stackFrom(
+                                        1, // 切石时间通常较短，设为1秒
+                                        new ItemStack[] {new ItemStack(input)},
+                                        new ItemStack[] {stonecuttingRecipe.getResult()}));
+                        PROVIDED_SHAPED_RECIPES
+                                .get(BukkitUtils.VANILLA_STONECUTTER)
+                                .add(MachineRecipeUtils.shapeFrom(
+                                        1, // 切石时间通常较短，设为1秒
+                                        new ItemStack[] {new ItemStack(input)},
+                                        new ItemStack[] {stonecuttingRecipe.getResult()}));
+                    }
+                } else if (choice instanceof RecipeChoice.ExactChoice ec) {
+                    for (ItemStack input : ec.getChoices()) {
+                        PROVIDED_UNSHAPED_RECIPES
+                                .get(BukkitUtils.VANILLA_STONECUTTER)
+                                .add(MachineRecipeUtils.stackFrom(
+                                        1, // 切石时间通常较短，设为1秒
+                                        new ItemStack[] {input},
+                                        new ItemStack[] {stonecuttingRecipe.getResult()}));
+                        PROVIDED_SHAPED_RECIPES
+                                .get(BukkitUtils.VANILLA_STONECUTTER)
+                                .add(MachineRecipeUtils.shapeFrom(
+                                        1, // 切石时间通常较短，设为1秒
+                                        new ItemStack[] {input},
+                                        new ItemStack[] {stonecuttingRecipe.getResult()}));
                     }
                 }
             }

@@ -32,7 +32,12 @@ public class ManualCrafter extends AbstractManual implements ImportRecipes {
             } else {
                 List<MachineRecipe> recipes = new ArrayList<>();
                 for (RecipeType rt : this.craftType) {
-                    if (rt != null) recipes.addAll(RecipeSupporter.PROVIDED_UNSHAPED_RECIPES.get(rt));
+                    if (rt != null) {
+                        List<MachineRecipe> typeRecipes = RecipeSupporter.PROVIDED_UNSHAPED_RECIPES.get(rt);
+                        if (typeRecipes != null) {  // 添加 null 检查
+                            recipes.addAll(typeRecipes);
+                        }
+                    }
                 }
                 return recipes;
             }

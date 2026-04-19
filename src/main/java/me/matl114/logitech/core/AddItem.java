@@ -1095,7 +1095,7 @@ public class AddItem {
             get("Manuals.CRAFT_MANUAL.Name"),
             getList("Manuals.CRAFT_MANUAL.Lore"));
     public static final SlimefunItemStack STONE_CUTTER_MANUAL = themed(
-            "CRAFT_MANUAL",
+            "STONECUTTER_MANUAL",
             Material.STONECUTTER,
             Theme.MANUAL1,
             get("Manuals.STONE_CUTTER_MANUAL.Name"),

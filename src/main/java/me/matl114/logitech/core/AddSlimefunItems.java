@@ -104,7 +104,6 @@ public class AddSlimefunItems {
         Debug.logger("注册附属物品...");
         Debug.logger("注册附属机器...");
         CRAFTTYPE_MANUAL_RECIPETYPE.put(CRAFT_MANUAL, BukkitUtils.VANILLA_CRAFTTABLE);
-        CRAFTTYPE_MANUAL_RECIPETYPE.put(STONE_CUTTER_MANUAL, BukkitUtils.VANILLA_STONECUTTER);
         CRAFTTYPE_MANUAL_RECIPETYPE.put(ENHANCED_CRAFT_MANUAL, ENHANCED_CRAFTING_TABLE);
         CRAFTTYPE_MANUAL_RECIPETYPE.put(MAGIC_WORKBENCH_MANUAL, MAGIC_WORKBENCH);
         CRAFTTYPE_MANUAL_RECIPETYPE.put(ANCIENT_ALTAR_MANUAL, ANCIENT_ALTAR);
@@ -5260,23 +5259,14 @@ public class AddSlimefunItems {
                     BukkitUtils.VANILLA_CRAFTTABLE)
             .register();
     public static final SlimefunItem STONE_CUTTER_MANUAL = new ManualCrafter(
-                MANUAL,
-                AddItem.STONE_CUTTER_MANUAL,
-                ENHANCED_CRAFTING_TABLE,
-                recipe(
-                        AddItem.BUG,
-                        AddItem.MANUAL_CORE,
-                        AddItem.BUG,
-                        AddItem.MANUAL_CORE,
-                        "STONECUTTER",
-                        AddItem.MANUAL_CORE,
-                        AddItem.BUG,
-                        AddItem.BUG,
-                        AddItem.BUG),
-                0,
-                0,
-                BukkitUtils.VANILLA_STONECUTTER)
-                .register();
+                    MANUAL,
+                    AddItem.STONE_CUTTER_MANUAL,
+                    ENHANCED_CRAFTING_TABLE,
+                    recipe(AddItem.BUG, AddItem.MANUAL_CORE, AddItem.BUG, AddItem.MANUAL_CORE, "STONECUTTER", AddItem.MANUAL_CORE, AddItem.BUG, AddItem.BUG, AddItem.BUG),
+                    0,
+                    0,
+                    BukkitUtils.VANILLA_STONECUTTER)
+            .register();
     public static final SlimefunItem FURNACE_MANUAL = new ManualCrafter(
                     MANUAL,
                     AddItem.FURNACE_MANUAL,

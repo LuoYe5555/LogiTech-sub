@@ -9,7 +9,7 @@ placeholder:
 zh_CN:
   Groups:
     ROOT:
-      Name: '&7&ka&a逻辑工艺2&7&ka&r'
+      Name: '&7&ka&d逻辑工艺2&7&ka&r'
       Lore:
         - '&a芜湖起飞~'
         - '&7⇨ &a单击启动LogiTech2'
@@ -1114,6 +1114,8 @@ zh_CN:
         - '经典永流传...'
     CRAFT_MANUAL:
       Name: '快捷工作台'
+    STONE_CUTTER_MANUAL:
+      Name: '快捷切石机'
     FURNACE_MANUAL:
       Name: '快捷熔炉'
     ENHANCED_CRAFT_MANUAL:
