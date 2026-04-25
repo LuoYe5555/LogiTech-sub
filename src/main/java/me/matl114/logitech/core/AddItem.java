@@ -1220,6 +1220,12 @@ public class AddItem {
             Theme.MANUAL1,
             get("Manuals.INFINITY_MANUAL.Name"),
             getList("Manuals.INFINITY_MANUAL.Lore"));
+    public static final SlimefunItemStack ME_INSCRIBER_MANUAL = themed(
+            "ME_INSCRIBER_MANUAL",
+            Material.LODESTONE,
+            Theme.MANUAL1,
+            get("Manuals.ME_INSCRIBER_MANUAL.Name"),
+            getList("Manuals.ME_INSCRIBER_MANUAL.Lore"));
     public static final SlimefunItemStack NTWWORKBENCH_MANUAL = themed(
             "NTWWORKBENCH_MANUAL",
             Material.BAMBOO_BLOCK,

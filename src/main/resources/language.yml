@@ -1164,6 +1164,10 @@ zh_CN:
       Name: '快捷无尽工作台'
       Lore:
         - '一键合成! ...但是注意电力'
+    ME_INSCRIBER_MANUAL:
+      Name: '快捷压印机'
+      Lore:
+        - '对SlimeAE的再一次加强!'
     NTWWORKBENCH_MANUAL:
       Name: '快捷网络工作台'
       Lore:
