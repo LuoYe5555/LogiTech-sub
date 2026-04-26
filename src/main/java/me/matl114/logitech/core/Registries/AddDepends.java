@@ -18,6 +18,7 @@ import java.util.stream.Stream;
 import me.matl114.logitech.core.AddGroups;
 import me.matl114.logitech.core.AddItem;
 import me.matl114.logitech.core.AddSlimefunItems;
+import me.matl114.logitech.core.Items.Abstracts.MaterialItem;
 import me.matl114.logitech.core.Items.Abstracts.MyVanillaItem;
 import me.matl114.logitech.core.Machines.AutoMachines.AdvanceRecipeCrafter;
 import me.matl114.logitech.core.Machines.ManualMachines.ManualCrafter;
@@ -34,6 +35,8 @@ import org.bukkit.inventory.EquipmentSlot;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.inventory.meta.SkullMeta;
+
+
 
 /**
  * only enable when certain addon are enable
@@ -570,7 +573,9 @@ public class AddDepends {
         } catch (Throwable e) {
 
         }
+
     }
+
 
     public static boolean hasInfiniteExpansion = false;
     public static boolean hasNetwork = false;

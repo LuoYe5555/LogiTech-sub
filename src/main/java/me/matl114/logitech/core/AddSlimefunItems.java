@@ -5285,6 +5285,24 @@ public class AddSlimefunItems {
                     0,
                     BukkitUtils.VANILLA_FURNACE)
             .register();
+    public static final SlimefunItem BUG_CRAFTER_MANUAL = new ManualCrafter(
+            MANUAL,
+            AddItem.BUG_CRAFTER_MANUAL,
+            ENHANCED_CRAFTING_TABLE,
+            recipe(
+                    AddItem.ABSTRACT_INGOT,
+                    AddItem.LOGIGATE,
+                    AddItem.ABSTRACT_INGOT,
+                    AddItem.CHIP_INGOT,
+                    AddItem.BUG_CRAFTER,
+                    AddItem.CHIP_INGOT,
+                    AddItem.ABSTRACT_INGOT,
+                    "MEDIUM_CAPACITOR",
+                    AddItem.ABSTRACT_INGOT),
+            0,
+            0,
+            COMMON_TYPE)
+            .register();
     public static final SlimefunItem ENHANCED_CRAFT_MANUAL = new ManualCrafter(
                     MANUAL,
                     AddItem.ENHANCED_CRAFT_MANUAL,

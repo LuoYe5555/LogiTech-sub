@@ -173,7 +173,6 @@ public class AddItem {
             Theme.ITEM1,
             get("Items.MATL114.Name"),
             getList("Items.MATL114.Lore"));
-
     public static final SlimefunItemStack LYEN = themed(
             "LYEN",
             CustomHead.LYEN.getItem(),
@@ -1106,6 +1105,12 @@ public class AddItem {
             Theme.MANUAL1,
             get("Manuals.FURNACE_MANUAL.Name"),
             getList("Manuals.FURNACE_MANUAL.Lore"));
+    public static final SlimefunItemStack BUG_CRAFTER_MANUAL = themed(
+            "BUG_CRAFTER_MANUAL",
+            CustomHead.BUG_CRAFTER_MANUAL.getItem(),
+            Theme.MANUAL1,
+            get("Manuals.BUG_CRAFTER_MANUAL.Name"),
+            getList("Manuals.BUG_CRAFTER_MANUAL.Lore"));
     public static final SlimefunItemStack ENHANCED_CRAFT_MANUAL = themed(
             "ENHANCED_CRAFT_MANUAL",
             Material.CRAFTING_TABLE,

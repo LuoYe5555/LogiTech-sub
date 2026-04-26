@@ -1118,6 +1118,10 @@ zh_CN:
       Name: '快捷切石机'
     FURNACE_MANUAL:
       Name: '快捷熔炉'
+    BUG_CRAFTER_MANUAL:
+      Name: '快捷BUG工作台'
+      Lore:
+        - '你才是真正的懒狗!'
     ENHANCED_CRAFT_MANUAL:
       Name: '快捷强化工作台'
     GRIND_MANUAL:
