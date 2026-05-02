@@ -79,6 +79,13 @@ public class AddItem {
             Material.NETHER_STAR, Theme.CATEGORY2, get("Groups.SINGULARITY.Name"), getList("Groups.SINGULARITY.Lore"));
     public static final ItemStack ADVANCED =
             themed(Material.BEACON, Theme.CATEGORY2, get("Groups.ADVANCED.Name"), getList("Groups.ADVANCED.Lore"));
+
+    public static final ItemStack PROP = themed(
+            Material.REPEATING_COMMAND_BLOCK,
+            Theme.CATEGORY2,
+            get("Groups.PROP.Name"),
+            getList("Groups.PROP.Lore"));
+
     public static final ItemStack BEYOND = themed(
             Material.REPEATING_COMMAND_BLOCK,
             Theme.CATEGORY2,
@@ -116,8 +123,8 @@ public class AddItem {
             getList("Groups.TOBECONTINUE.Lore"));
     public static final ItemStack SPACE =
             themed(Material.TOTEM_OF_UNDYING, Theme.CATEGORY2, get("Groups.SPACE.Name"), getList("Groups.SPACE.Lore"));
-    public static final ItemStack GENERATORS = themed(
-            Material.LAVA_BUCKET, Theme.CATEGORY2, get("Groups.GENERATORS.Name"), getList("Groups.GENERATORS.Lore"));
+    public static final ItemStack GENERATORS =
+            themed(Material.LAVA_BUCKET, Theme.CATEGORY2, get("Groups.GENERATORS.Name"), getList("Groups.GENERATORS.Lore"));
     public static final ItemStack ENERGY =
             themed(Material.LIGHTNING_ROD, Theme.CATEGORY2, get("Groups.ENERGY.Name"), getList("Groups.ENERGY.Lore"));
     public static final ItemStack FUNCTIONAL = themed(
@@ -1105,12 +1112,6 @@ public class AddItem {
             Theme.MANUAL1,
             get("Manuals.FURNACE_MANUAL.Name"),
             getList("Manuals.FURNACE_MANUAL.Lore"));
-    public static final SlimefunItemStack BUG_CRAFTER_MANUAL = themed(
-            "BUG_CRAFTER_MANUAL",
-            CustomHead.BUG_CRAFTER_MANUAL.getItem(),
-            Theme.MANUAL1,
-            get("Manuals.BUG_CRAFTER_MANUAL.Name"),
-            getList("Manuals.BUG_CRAFTER_MANUAL.Lore"));
     public static final SlimefunItemStack ENHANCED_CRAFT_MANUAL = themed(
             "ENHANCED_CRAFT_MANUAL",
             Material.CRAFTING_TABLE,
@@ -1213,6 +1214,13 @@ public class AddItem {
             Theme.MANUAL1,
             get("Manuals.MULTIMACHINE_MANUAL.Name"),
             getList("Manuals.MULTIMACHINE_MANUAL.Lore"));
+    public static final SlimefunItemStack BUG_CRAFTER_MANUAL = themed(
+            "BUG_CRAFTER_MANUAL",
+            CustomHead.BUG_CRAFTER_MANUAL.getItem(),
+            Theme.MANUAL1,
+            get("Manuals.BUG_CRAFTER_MANUAL.Name"),
+            getList("Manuals.BUG_CRAFTER_MANUAL.Lore"));
+
     public static final SlimefunItemStack MOBDATA_MANUAL = themed(
             "MOBDATA_MANUAL",
             Material.LODESTONE,
@@ -1225,12 +1233,6 @@ public class AddItem {
             Theme.MANUAL1,
             get("Manuals.INFINITY_MANUAL.Name"),
             getList("Manuals.INFINITY_MANUAL.Lore"));
-    public static final SlimefunItemStack ME_INSCRIBER_MANUAL = themed(
-            "ME_INSCRIBER_MANUAL",
-            Material.LODESTONE,
-            Theme.MANUAL1,
-            get("Manuals.ME_INSCRIBER_MANUAL.Name"),
-            getList("Manuals.ME_INSCRIBER_MANUAL.Lore"));
     public static final SlimefunItemStack NTWWORKBENCH_MANUAL = themed(
             "NTWWORKBENCH_MANUAL",
             Material.BAMBOO_BLOCK,

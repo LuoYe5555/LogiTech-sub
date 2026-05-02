@@ -83,10 +83,11 @@ public class AddGroups {
 
     public static final ItemGroup SPECIAL = new DummyItemGroup(AddUtils.getNameKey("special"), AddItem.SPECIAL);
 
+    public static final ItemGroup PROP = new DummyItemGroup(AddUtils.getNameKey("prop"), AddItem.PROP);
+
     public static final ItemGroup SPACE = new DummyItemGroup(AddUtils.getNameKey("space"), AddItem.SPACE);
 
-    public static final ItemGroup GENERATORS =
-            new DummyItemGroup(AddUtils.getNameKey("generators"), AddItem.GENERATORS);
+    public static final ItemGroup GENERATORS = new DummyItemGroup(AddUtils.getNameKey("generators"), AddItem.GENERATORS);
 
     public static final ItemGroup ENERGY = new DummyItemGroup(AddUtils.getNameKey("energy"), AddItem.ENERGY);
 

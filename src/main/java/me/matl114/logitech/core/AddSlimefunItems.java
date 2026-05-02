@@ -3080,6 +3080,22 @@ public class AddSlimefunItems {
                     40_000_000,
                     2.0)
             .register();
+    public static final SlimefunItem QUANTUM_STACKMACHINE = new FinalStackMachine(
+            ADVANCED,
+            AddItem.QUANTUM_STACKMACHINE,
+            NULL,
+            formatInfoRecipe(AddItem.ENDFRAME_MACHINE, Language.get("Machines.ENDFRAME_MACHINE.Name")),
+            Material.NETHERITE_PICKAXE,
+            100,
+            80_000_000,
+            2) {
+        public boolean canUse(Player player, boolean sendMessage) {
+            if (!super.canUse(player, sendMessage)) {
+                return false;
+            }
+            return LogiTechExperimental.checkUsePermission(player, sendMessage);
+        }
+    }.register();
     //
     public static final SlimefunItem ADVANCED_CHIP_MAKER = new ChipCopier(
                     ADVANCED,
@@ -4584,7 +4600,22 @@ public class AddSlimefunItems {
                     2_000,
                     2)
             .register();
-
+    public static final SlimefunItem QUANTUM_STACKMGENERATOR = new FinalStackMGenerator(
+                GENERATORS,
+                AddItem.QUANTUM_STACKMGENERATOR,
+                NULL,
+                formatInfoRecipe(AddItem.ENDFRAME_MACHINE, Language.get("Machines.ENDFRAME_MACHINE.Name")),
+                1,
+                80_000_000,
+                100,
+                2) {
+            public boolean canUse(Player player, boolean sendMessage) {
+                if (!super.canUse(player, sendMessage)) {
+                    return false;
+                }
+                return LogiTechExperimental.checkUsePermission(player, sendMessage);
+            }
+    }.register();
     // register recips
     // 平衡性调整
     // 虚拟世界 等生成器 有了
@@ -5285,24 +5316,6 @@ public class AddSlimefunItems {
                     0,
                     BukkitUtils.VANILLA_FURNACE)
             .register();
-    public static final SlimefunItem BUG_CRAFTER_MANUAL = new ManualCrafter(
-            MANUAL,
-            AddItem.BUG_CRAFTER_MANUAL,
-            ENHANCED_CRAFTING_TABLE,
-            recipe(
-                    AddItem.ABSTRACT_INGOT,
-                    AddItem.LOGIGATE,
-                    AddItem.ABSTRACT_INGOT,
-                    AddItem.CHIP_INGOT,
-                    AddItem.BUG_CRAFTER,
-                    AddItem.CHIP_INGOT,
-                    AddItem.ABSTRACT_INGOT,
-                    "MEDIUM_CAPACITOR",
-                    AddItem.ABSTRACT_INGOT),
-            0,
-            0,
-            COMMON_TYPE)
-            .register();
     public static final SlimefunItem ENHANCED_CRAFT_MANUAL = new ManualCrafter(
                     MANUAL,
                     AddItem.ENHANCED_CRAFT_MANUAL,
@@ -5673,6 +5686,25 @@ public class AddSlimefunItems {
                     0,
                     null)
             .register();
+    public static final SlimefunItem BUG_CRAFTER_MANUAL = new ManualCrafter(
+            MANUAL,
+            AddItem.BUG_CRAFTER_MANUAL,
+            ENHANCED_CRAFTING_TABLE,
+            recipe(
+                    AddItem.ABSTRACT_INGOT,
+                    AddItem.LOGIGATE,
+                    AddItem.ABSTRACT_INGOT,
+                    AddItem.CHIP_INGOT,
+                    AddItem.BUG_CRAFTER,
+                    AddItem.CHIP_INGOT,
+                    AddItem.ABSTRACT_INGOT,
+                    "MEDIUM_CAPACITOR",
+                    AddItem.ABSTRACT_INGOT),
+            0,
+            0,
+            COMMON_TYPE)
+            .register();
+
     public static final SlimefunItem FAKE_UI = new MaterialItem(
                     MANUAL,
                     AddItem.FAKE_UI,
@@ -6997,6 +7029,8 @@ public class AddSlimefunItems {
             }
         }
     }.register();
+
+    
     public static final SlimefunItem HOLOGRAM_REMOVER = new CustomProps(
             SPECIAL,
             AddItem.HOLOGRAM_REMOVER,
@@ -7440,6 +7474,12 @@ public class AddSlimefunItems {
                             mkP(mkl(setC(AddItem.STACKFRAME, 4), AddItem.FALSE_), mkl(AddItem.STACKMGENERATOR)), 6,
                             mkP(mkl(setC(AddItem.STACKFRAME, 10), "4ENERGY_REGULATOR"), mkl(AddItem.ENERGY_AMPLIFIER)),
                                     6,
+
+                            mkP(mkl(setC(AddItem.STACKMACHINE, 2), setC(AddItem.HGTLPBBI,2)), mkl(AddItem.QUANTUM_STACKMACHINE)),
+                            6,
+                            mkP(mkl(setC(AddItem.STACKMGENERATOR, 2), setC(AddItem.PDCECDMD,2)), mkl(AddItem.QUANTUM_STACKMGENERATOR)),
+                            6,
+
                             mkP(mkl(AddItem.SPACE_PLATE, AddItem.MASS_CORE), mkl(AddItem.TRANSMUTATOR_FRAME)), 6,
                             mkP(
                                             mkl(AddItem.SPACE_PLATE, setC(AddItem.LFIELD, 24)),
@@ -7892,33 +7932,6 @@ public class AddSlimefunItems {
             return LogiTechExperimental.checkUsePermission(player, sendMessage);
         }
     }.register();
-
-    public static final SlimefunItem QUANTUM_STACKMACHINE = new FinalStackMachine(
-            EXPERIMENTAL,
-            AddItem.QUANTUM_STACKMACHINE,
-            NULL,
-            NULL_RECIPE.clone(),
-            Material.NETHERITE_PICKAXE,
-            100,
-            80_000_000,
-            2) {
-        public boolean canUse(Player player, boolean sendMessage) {
-            if (!super.canUse(player, sendMessage)) {
-                return false;
-            }
-            return LogiTechExperimental.checkUsePermission(player, sendMessage);
-        }
-    }.register();
-    public static final SlimefunItem QUANTUM_STACKMGENERATOR = new FinalStackMGenerator(
-            EXPERIMENTAL, AddItem.QUANTUM_STACKMGENERATOR, NULL, NULL_RECIPE.clone(), 1, 80_000_000, 100, 2) {
-        public boolean canUse(Player player, boolean sendMessage) {
-            if (!super.canUse(player, sendMessage)) {
-                return false;
-            }
-            return LogiTechExperimental.checkUsePermission(player, sendMessage);
-        }
-    }.register();
-
     public static final SlimefunItem TMP1 =
             new MaterialItem(FUNCTIONAL, AddItem.TMP1, NULL, NULL_RECIPE.clone()).register();
     public static final SlimefunItem RESOLVE_FAILED =
