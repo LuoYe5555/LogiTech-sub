@@ -36,8 +36,6 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.inventory.meta.SkullMeta;
 
-
-
 /**
  * only enable when certain addon are enable
  */
@@ -184,8 +182,8 @@ public class AddDepends {
                         0,
                         0,
                         Stream.of(NTWQTWORKBENCH_TYPE, NTWEP_WORKBENCH_TYPE, NTWEP_DRAWER_TYPE)
-                                .filter(Objects::nonNull)
-                                .toArray(RecipeType[]::new))
+                        .filter(Objects::nonNull)
+                        .toArray(RecipeType[]::new))
                         .register();
         } catch (Throwable e) {
             Debug.logger("AN ERROR OCCURED WHILE REGISTERING ITEM: NTWWORKBENCH_MANUAL,ITEM DISABLED");
@@ -573,10 +571,7 @@ public class AddDepends {
         } catch (Throwable e) {
 
         }
-
     }
-
-
     public static boolean hasInfiniteExpansion = false;
     public static boolean hasNetwork = false;
     public static boolean hasNetworkExpansion = false;

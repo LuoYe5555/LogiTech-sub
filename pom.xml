@@ -52,7 +52,7 @@
     </repositories>
 
     <build>
-        <finalName>${project.name}</finalName>
+        <finalName>LogiTech2</finalName>
         <defaultGoal>clean package</defaultGoal>
         <sourceDirectory>${basedir}/src/main/java</sourceDirectory>
         <plugins>
@@ -68,21 +68,6 @@
                         <phase>initialize</phase>
                     </execution>
                 </executions>
-                <!-- 添加配置以处理无 .git 目录的情况 -->
-                <configuration>
-                    <failOnNoGitDirectory>false</failOnNoGitDirectory>
-                    <skip>false</skip>
-                    <verbose>false</verbose>
-                    <generateGitPropertiesFile>true</generateGitPropertiesFile>
-                    <generateGitPropertiesFilename>src/main/resources/git.properties</generateGitPropertiesFilename>
-                    <failOnNoProperties>false</failOnNoProperties>
-                    <excludeProperties>
-                        <excludeProperty>git.commit.user.*</excludeProperty>
-                        <excludeProperty>git.build.user.*</excludeProperty>
-                    </excludeProperties>
-                    <!-- 指定一个不存在的路径，强制插件认为没有 git 仓库 -->
-                    <dotGitDirectory>${project.basedir}/.git-nonexistent</dotGitDirectory>
-                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

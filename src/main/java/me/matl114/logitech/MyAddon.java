@@ -60,8 +60,8 @@ public class MyAddon extends JavaPlugin implements SlimefunAddon {
     public static SupportedPluginManager supportedPluginManager;
 
     static {
-        username = "m1919810";
-        repo = "LogiTech";
+        username = "lyen";
+        repo = "LogiTech2";
         branch = "master";
     }
 
@@ -81,7 +81,7 @@ public class MyAddon extends JavaPlugin implements SlimefunAddon {
             return;
         }
         matlibInstance = new AddonInitialization(this, "LOGITECH")
-                .displayName("逻辑工艺")
+                .displayName("逻辑工艺2")
                 .onEnable()
                 .cast();
         manager = getServer().getPluginManager();
